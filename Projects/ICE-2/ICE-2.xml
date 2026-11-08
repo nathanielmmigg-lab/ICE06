@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TimeTest" project="Time" tests="51" started="51" failures="4" errors="2" ignored="0">
+  <testsuite name="time.TimeTest" time="0.046" displayname="TimeTest" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]">
+    <testcase name="testGetTotalSecondsBad" classname="time.TimeTest" time="0.007" displayname="testGetTotalSecondsBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalSecondsBad()]"/>
+    <testcase name="testGetTotalSecondsBoundry" classname="time.TimeTest" time="0.0" displayname="testGetTotalSecondsBoundry()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalSecondsBoundry()]"/>
+    <testcase name="testNotifyGood" classname="time.TimeTest" time="0.001" displayname="testNotifyGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testNotifyGood()]"/>
+    <testcase name="testHashCodeGood" classname="time.TimeTest" time="0.001" displayname="testHashCodeGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testHashCodeGood()]"/>
+    <testcase name="testNotifyBad" classname="time.TimeTest" time="0.001" displayname="testNotifyBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testNotifyBad()]"/>
+    <testcase name="testToStringBad" classname="time.TimeTest" time="0.0" displayname="testToStringBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testToStringBad()]"/>
+    <testcase name="testFinalizeBoundary" classname="time.TimeTest" time="0.001" displayname="testFinalizeBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testFinalizeBoundary()]"/>
+    <testcase name="testNotifyBoundary" classname="time.TimeTest" time="0.001" displayname="testNotifyBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testNotifyBoundary()]"/>
+    <testcase name="testGetMillisecondsBoundary" classname="time.TimeTest" time="0.004" displayname="testGetMillisecondsBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetMillisecondsBoundary()]">
+      <error>java.lang.StringIndexOutOfBoundsException: Range [9, 11) out of bounds for length 8
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4937)
+	at java.base/java.lang.String.substring(String.java:2899)
+	at time.Time.getMilliseconds(Time.java:92)
+	at time.TimeTest.testGetMillisecondsBoundary(TimeTest.java:107)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+</error>
+    </testcase>
+    <testcase name="testObjectBad" classname="time.TimeTest" time="0.0" displayname="testObjectBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testObjectBad()]"/>
+    <testcase name="testHashCodeBoundary" classname="time.TimeTest" time="0.001" displayname="testHashCodeBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testHashCodeBoundary()]"/>
+    <testcase name="testGetTotalHoursGood" classname="time.TimeTest" time="0.0" displayname="testGetTotalHoursGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalHoursGood()]"/>
+    <testcase name="testGetTotalMinutesBad" classname="time.TimeTest" time="0.002" displayname="testGetTotalMinutesBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalMinutesBad()]">
+      <failure>org.opentest4j.AssertionFailedError: Expected java.lang.StringIndexOutOfBoundsException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at time.TimeTest.testGetTotalMinutesBad(TimeTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+</failure>
+    </testcase>
+    <testcase name="testGetTotalSecondsGood" classname="time.TimeTest" time="0.001" displayname="testGetTotalSecondsGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalSecondsGood()]"/>
+    <testcase name="testToStringBoundary" classname="time.TimeTest" time="0.0" displayname="testToStringBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testToStringBoundary()]"/>
+    <testcase name="testFinalizeGood" classname="time.TimeTest" time="0.0" displayname="testFinalizeGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testFinalizeGood()]"/>
+    <testcase name="testNotifyAllBoundary" classname="time.TimeTest" time="0.0" displayname="testNotifyAllBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testNotifyAllBoundary()]"/>
+    <testcase name="testEqualsGood" classname="time.TimeTest" time="0.0" displayname="testEqualsGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testEqualsGood()]"/>
+    <testcase name="testWaitLongIntBad" classname="time.TimeTest" time="0.001" displayname="testWaitLongIntBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitLongIntBad()]"/>
+    <testcase name="testWaitLongBad" classname="time.TimeTest" time="0.0" displayname="testWaitLongBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitLongBad()]"/>
+    <testcase name="testCloneGood" classname="time.TimeTest" time="0.0" displayname="testCloneGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testCloneGood()]"/>
+    <testcase name="testObjectBoundary" classname="time.TimeTest" time="0.0" displayname="testObjectBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testObjectBoundary()]"/>
+    <testcase name="testGetTotalMinutesBoundry" classname="time.TimeTest" time="0.001" displayname="testGetTotalMinutesBoundry()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalMinutesBoundry()]">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at time.TimeTest.testGetTotalMinutesBoundry(TimeTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+</failure>
+    </testcase>
+    <testcase name="testGetTotalHoursBoundary" classname="time.TimeTest" time="0.0" displayname="testGetTotalHoursBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalHoursBoundary()]"/>
+    <testcase name="testObjectGood" classname="time.TimeTest" time="0.0" displayname="testObjectGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testObjectGood()]"/>
+    <testcase name="testWaitLongIntGood" classname="time.TimeTest" time="0.001" displayname="testWaitLongIntGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitLongIntGood()]"/>
+    <testcase name="testMainBad" classname="time.TimeTest" time="0.002" displayname="testMainBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testMainBad()]">
+      <failure>
+        <expected>class java.lang.StringIndexOutOfBoundsException</expected>
+        <actual>class java.lang.NumberFormatException</actual>
+        org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.StringIndexOutOfBoundsException&gt; but was: &lt;java.lang.NumberFormatException&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at time.TimeTest.testMainBad(TimeTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: java.lang.NumberFormatException: For input string: ":0"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at time.Time.getTotalHours(Time.java:82)
+	at time.Time.getTotalSeconds(Time.java:58)
+	at time.TimeTest.lambda$0(TimeTest.java:19)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+
+      </failure>
+    </testcase>
+    <testcase name="testWaitBoundary" classname="time.TimeTest" time="0.0" displayname="testWaitBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitBoundary()]"/>
+    <testcase name="testWaitLongGood" classname="time.TimeTest" time="0.001" displayname="testWaitLongGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitLongGood()]"/>
+    <testcase name="testMainGood" classname="time.TimeTest" time="0.0" displayname="testMainGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testMainGood()]"/>
+    <testcase name="testWaitBad" classname="time.TimeTest" time="0.001" displayname="testWaitBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitBad()]"/>
+    <testcase name="testEqualsBoundary" classname="time.TimeTest" time="0.0" displayname="testEqualsBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testEqualsBoundary()]"/>
+    <testcase name="testWaitGood" classname="time.TimeTest" time="0.0" displayname="testWaitGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitGood()]"/>
+    <testcase name="testGetTotalMinutesGood" classname="time.TimeTest" time="0.001" displayname="testGetTotalMinutesGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalMinutesGood()]"/>
+    <testcase name="testGetClassGood" classname="time.TimeTest" time="0.001" displayname="testGetClassGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetClassGood()]"/>
+    <testcase name="testGetClassBoundary" classname="time.TimeTest" time="0.0" displayname="testGetClassBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetClassBoundary()]"/>
+    <testcase name="testNotifyAllGood" classname="time.TimeTest" time="0.001" displayname="testNotifyAllGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testNotifyAllGood()]"/>
+    <testcase name="testGetMillisecondsGood" classname="time.TimeTest" time="0.001" displayname="testGetMillisecondsGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetMillisecondsGood()]">
+      <error>java.lang.StringIndexOutOfBoundsException: Range [9, 11) out of bounds for length 8
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4937)
+	at java.base/java.lang.String.substring(String.java:2899)
+	at time.Time.getMilliseconds(Time.java:92)
+	at time.TimeTest.testGetMillisecondsGood(TimeTest.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+</error>
+    </testcase>
+    <testcase name="testWaitLongIntBoundary" classname="time.TimeTest" time="0.0" displayname="testWaitLongIntBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitLongIntBoundary()]"/>
+    <testcase name="testHashCodeBad" classname="time.TimeTest" time="0.001" displayname="testHashCodeBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testHashCodeBad()]"/>
+    <testcase name="testEqualsBad" classname="time.TimeTest" time="0.0" displayname="testEqualsBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testEqualsBad()]"/>
+    <testcase name="testMainBoundary" classname="time.TimeTest" time="0.0" displayname="testMainBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testMainBoundary()]"/>
+    <testcase name="testWaitLongBoundary" classname="time.TimeTest" time="0.0" displayname="testWaitLongBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testWaitLongBoundary()]"/>
+    <testcase name="testToStringGood" classname="time.TimeTest" time="0.0" displayname="testToStringGood()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testToStringGood()]"/>
+    <testcase name="testCloneBad" classname="time.TimeTest" time="0.001" displayname="testCloneBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testCloneBad()]"/>
+    <testcase name="testGetMillisecondsBad" classname="time.TimeTest" time="0.0" displayname="testGetMillisecondsBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetMillisecondsBad()]"/>
+    <testcase name="testGetTotalHoursBad" classname="time.TimeTest" time="0.001" displayname="testGetTotalHoursBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetTotalHoursBad()]">
+      <failure>org.opentest4j.AssertionFailedError: Expected java.lang.StringIndexOutOfBoundsException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at time.TimeTest.testGetTotalHoursBad(TimeTest.java:78)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+</failure>
+    </testcase>
+    <testcase name="testNotifyAllBad" classname="time.TimeTest" time="0.0" displayname="testNotifyAllBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testNotifyAllBad()]"/>
+    <testcase name="testCloneBoundary" classname="time.TimeTest" time="0.0" displayname="testCloneBoundary()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testCloneBoundary()]"/>
+    <testcase name="testFinalizeBad" classname="time.TimeTest" time="0.0" displayname="testFinalizeBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testFinalizeBad()]"/>
+    <testcase name="testGetClassBad" classname="time.TimeTest" time="0.001" displayname="testGetClassBad()" uniqueid="[engine:junit-jupiter]/[class:time.TimeTest]/[method:testGetClassBad()]"/>
+  </testsuite>
+</testrun>
