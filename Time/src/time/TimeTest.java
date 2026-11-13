@@ -85,7 +85,8 @@ class TimeTest {
 		assertEquals(43505005, Time.getMilliseconds("12:05:05:05")); 
 		} 
 			
-	@Test void testGetAllMillisecondsBoundary() { 
+	@Test 
+	void testGetAllMillisecondsBoundary() { 
 			int milliseconds = Time.getMilliseconds("00:59:59:00"); 
 				assertTrue(milliseconds == 0); 
 			}
